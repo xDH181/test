@@ -32,7 +32,7 @@ def ex3(file):
 
                 #shift matrix by command
                 if command == "U": 
-                    matrix[:, index] = np.roll(matrix[:, index], -1)
+                    matrix[:, index] = np.roll(matrix[:, index],-1)
 
                 elif command == "D":  
                     matrix[:, index] = np.roll(matrix[:, index], 1)
